@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabuleiro {
+  width: 320px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(24, 190, 190);
+}
+
+.tabuleiro div {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Verificado {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Bomba {
+  background-color: red;
+}
+
+.tabuleiro-total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
